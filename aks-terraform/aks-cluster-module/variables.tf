@@ -29,7 +29,9 @@ variable "service_principal_client_secret" {
   type        = string
 }
 
-
+variable "aks_nsg_id" {
+  description = "aks nsg id"
+}
 
 
 variable "resource_group_name" {
@@ -47,5 +49,6 @@ variable "control_plane_subnet_id" {
 variable "worker_node_subnet_id" {
   description = "A worker_node_subnet_id variable that will store the ID of the worker node subnet within the VNet"
 }
+
 
 

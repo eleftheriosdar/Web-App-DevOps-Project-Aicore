@@ -39,6 +39,8 @@ resource "azurerm_subnet" "example1" {
     destination_port_range     = "22"
     source_address_prefix      = "*"
     destination_address_prefix = "*"
+    priority                   = 1001
+
   }
 
   
@@ -51,6 +53,8 @@ resource "azurerm_subnet" "example1" {
     destination_port_range     = "22"
     source_address_prefix      = "*"
     destination_address_prefix = "*"
+    priority                   = 1002
+ 
   }
 
 }
