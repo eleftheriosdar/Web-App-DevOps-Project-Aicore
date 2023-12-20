@@ -18,7 +18,6 @@ output "networking_resource_group_name" {
   value       = azurerm_resource_group.example.name
 }
 
-
 output "aks_nsg_id" {
   description = "A aks_nsg_id variable that will store the ID of the Network Security Group (NSG)"
   value       = azurerm_network_security_group.example.id
