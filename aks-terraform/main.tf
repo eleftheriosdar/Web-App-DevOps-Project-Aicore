@@ -35,7 +35,7 @@ module "aks_cluster" {
   service_principal_client_id = "0b7f3d01-0ba7-4cfa-9419-2fb41da93cb6"
   service_principal_client_secret = "PYt8Q~K~W-6wiPGIs-Rkzn8WQ8ovFGO0qPfAVal5"
 
-  resource_group_name         = module.networking.resource_group_name
+  resource_group_name         = module.networking.networking_resource_group_name
   vnet_id                     = module.networking.vnet_id
   control_plane_subnet_id     = module.networking.control_plane_subnet_id
   worker_node_subnet_id       = module.networking.worker_node_subnet_id
