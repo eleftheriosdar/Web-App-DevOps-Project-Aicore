@@ -27,4 +27,4 @@ steps:
     azureSubscriptionConnection: 'aks-service-connection'
     azureResourceGroup: 'networking-rg'
     kubernetesCluster: 'terraform-aks-cluster'
-    manifests: 'application.manifest.yaml''
+    manifests: 'application.manifest.yaml'
